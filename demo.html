@@ -23,7 +23,10 @@
 	</div>
 
 	<script>
-		var marqueeList = new MarqueeList($("#marquee"), 10);
+		var marqueeList = new MarqueeList({
+			dom: $("#marquee"),
+			speed: 10
+		});
 	</script>
 </body>
 </html>
