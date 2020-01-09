@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>marqueeList</title>
+	
+	<script src="jquery-3.2.1.min.js"></script>
+	<script src="marqueeList.js"></script>
+	<style>
+		.marquee_wrap{white-space: nowrap; background-color: #f0f9eb; color: #67c23a;}
+		.marquee_wrap .visitable{overflow:hidden;}
+		.marquee_wrap .list{width:999em; list-style: none; overflow: hidden;}
+		.marquee_wrap .list li{float:left; margin-right:2em;}
+	</style>
+</head>
+<body>
+	<div class="marquee_wrap">
+		<div class="visitable" id="marquee">
+			<ul class="list">
+				<li>测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动</li>
+			</ul>
+		</div>
+	</div>
+
+	<script>
+		var marqueeList = new MarqueeList($("#marquee"), 10);
+	</script>
+</body>
+</html>
