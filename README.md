@@ -24,4 +24,4 @@ text sroll from left
 var marqueeList = new MarqueeList($("#marquee"), 10); 
 ```
 
-[Demo](https://lemonliuchen.github.io/marqueeList/demo.html) 
+[**Demo**](https://lemonliuchen.github.io/marqueeList/demo.html) 
