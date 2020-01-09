@@ -1,5 +1,6 @@
 # marqueeList
-text sroll from left
+text sroll from left   
+
 从左至右无限滚动，类似跑马灯的效果
 
 ## 参数  
@@ -22,6 +23,13 @@ text sroll from left
 
 ```javascript
 var marqueeList = new MarqueeList($("#marquee"), 10); 
+```
+## method
+#### stop
+停止滚动
+```javascript
+var marqueeList = new MarqueeList($("#marquee"), 10); 
+marqueeList.stop();
 ```
 
 [**Demo**](https://lemonliuchen.github.io/marqueeList/demo.html) 
