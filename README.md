@@ -10,14 +10,18 @@ text sroll from left
 
 ## 代码示例 
 
-`<div class="marquee_wrap">
+```html
+<div class="marquee_wrap">
 	<div class="visitable" id="marquee">
 		<ul class="list">
 			<li>测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动测试滚动</li>
 		</ul>
 	</div>
-</div> `
+</div> 
+```
 
-`var marqueeList = new MarqueeList($("#marquee"), 10); `
+```javascript
+var marqueeList = new MarqueeList($("#marquee"), 10); 
+```
 
 [Demo](https://lemonliuchen.github.io/marqueeList/demo.html) 
